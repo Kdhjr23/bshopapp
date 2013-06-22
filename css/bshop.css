@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+html { 
+ 
+}
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+    padding-top: 40px !important; 
+}
+
+.nav-glyphish-example .ui-btn .ui-icon { 
+    width: 45px!important; 
+    height: 35px!important; 
+    margin-left: -24px !important; 
+    box-shadow: none!important; 
+    -moz-box-shadow: none!important; 
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: none !important;
+    border-radius: none !important; 
+}
+
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+body {
+
+	
+
+}
+
+/*HTML 5 specific*/
+#header{
+	
+}
+
+
+.ui_page
+{
+	
+}
+
+#kd{
+	
+	
+}
+#btnau{
+
+background:url(../image/about.png) no-repeat center; 
+background-size: 48px 55px;
+width:50px;
+height:55px;
+	border-style: none;
+}
+#btnctu{
+
+background:url(../image/conus.png)no-repeat center ;
+background-size: 48px 55px;
+width:50px;
+height:55px;
+border-style: none;
+	
+}
+
+#btnloy{
+
+background:url(../image/loya.png) no-repeat center ;
+background-size: 48px 55px;
+width:50px;
+height:55px;
+border-style: none;
+	
+}
+#btnapp{
+
+background:url(../image/apt.png) no-repeat center ;
+background-size: 48px 50px;
+width:50px;
+height:55px;
+border-style: none;	
+}
+#btnser{
+
+background:url(../image/servi.png) no-repeat center ;
+background-size: 48px 55px;
+width:50px;
+height:55px;
+border-style: none;
+}
+#btngal{
+
+background:url(../image/gall.png) no-repeat center ;
+background-size: 48px 55px;
+width:50px;
+height:55px;
+border-style: none;
+}
+#id  {
+
+	background:url(../image/2Logo-Legends-Barbershop.jpg);
+	
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	
+}
+
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 33.33333333%; }
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; 
+
+
+
+

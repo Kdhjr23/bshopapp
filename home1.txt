@@ -1,0 +1,210 @@
+
+<html> 
+<head> 
+	<title>Page Title</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta http-equiv="REFRESH" content="0;url=startScreen.html">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script type="text/javascript" src="js/lib/jquery-1.3.2.min.js"></script> 
+  <script type="text/javascript" src="js/lib/jquery.listmenu-1.1.js"></script>
+
+</head> 
+
+<body> 
+
+<div data-role="page" id = "id" class="type-interior" data-theme="b" a href="one">
+
+	<div data-role="header">
+		<h1>Keith's BarberShop</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+	<p>Welcome to our website! Ransom Barbershop is Tallahassee’s newest upscale grooming center for men and children, providing a full range of grooming services for its clients!!!</p>
+	
+	<div data-role="collapsible-set">
+				<div data-role="collapsible" data-collapsed="false">
+	
+	
+	
+	
+	<h2>Services:</h2>
+
+Haircut<br></br>
+Haircut & Beard<br></br>
+Haircut & Shampoo<br></br>
+Edge<br></br>
+Custom Desgin<br></br>
+</div></div>
+
+	</div><!-- /content -->
+
+  
+<div class="ui-grid-c">
+	<div class="ui-block-a ui-corner-some" data-role="button" >About Us</div>
+	<div class="ui-block-b"  data-role="button" >Loyalist</div>
+	<div class="ui-block-c"  data-role="button" >Appointment</div>
+</div><!-- /grid-b -->
+
+
+
+<div class="ui-grid-c">
+	<div class="ui-block-a" data-role="button">Stylist</div>
+	<div class="ui-block-b" data-role="button" >Contact Us</div>
+	<div class="ui-block-c" data-role="button" >Locations</div>
+</div><!-- /grid-b -->
+
+	<div data-role="footer">
+		<h4>Keith's Barber Shop</h4>
+	</div><!-- /footer -->
+	
+</div><!-- /page one -->
+
+
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="a">
+
+	<div data-role="header">
+	<a href="#one" data-icon="Home">Home</a>
+	
+		<h1>About Us</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+	
+     	<h2>About Us</h2>
+		
+		<p>The Elite Barber Shop is a professional hair cutting establishment that was opened in 2006 in scenic downtown New Braunfels, Texas, with the mission of providing the availability of excellence in barbering exclusively for men. The Elite concept is simple, offer a unique, quality, and timeless tonsorial barber experience at very competitive prices.
+
+The Elite Barber Shop employes four professionals that have gathered over 100 years of combined experience in the barber trade. Each individual offers a particular benefit to the shop with their personal contribution and expertise. Be it shop ownership, military training, or just precision hair cutting, the staff at the Elite Barber Shop will make you feel at home and very satisfied with the way you look.
+
+The Elite Barber Shop brings back that old time barber shop feel; hot lather, hot towel, and electric shoulder massage after every haircut. Truly a haircut experience like no other.
+
+  Click here to print out a free $5 coupon for your first visit
+Come see us at The Elite Barber Shop and use this coupon. We invite you to relax and take a step back in barber history.
+
+J.D. Edwards
+Proprietor</p>	
+			
+
+
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+
+<!-- Start of Three: #three -->
+<div data-role="page" id="three" data-theme="a">
+
+	<div data-role="header">
+	<a href="one" data-icon="Home">Home</a>
+		<h1>Promotions</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+
+     	<h2>Promotions</h2>
+		<p>Mention this mobile ad or show your app to the Stylist, and get a $10 discount off!</p>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+<!-- Start of Three: #four -->
+<div data-role="page" id="four" data-theme="a">
+
+	<div data-role="header">
+	<a href="one" data-icon="Home">Home</a>
+		<h1>Locations</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+
+     	<h2>Locations</h2>
+		<p>Find the nearest Salon , and get directions help with Goggle Maps. If you have any question, you can contact us at (850) 555-5555</p>
+		<p></p>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page Locations -->
+
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page five -->
+]
+
+
+<!-- Start of Three: #six -->
+<div data-role="page" id="six" data-theme="a">
+
+	<div data-role="header">
+	<a href="one" data-icon="Home">Home</a>
+		<h1>Appointment</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+
+	<div data-role="fieldcontain">
+				<label for="textarea">First Name:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Last Name:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Phone:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				<div data-role="fieldcontain">
+				<label for="textarea">Email Address:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Requested Service:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Requested Service Stylist:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Date:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				<div data-role="fieldcontain">
+				<label for="textarea">Additional Information:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+				</div>
+				
+				
+<p>Date: <input type="text" id="datepicker" /></p>
+</div>		
+</div>
+
+</body>
+</html>

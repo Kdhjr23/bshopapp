@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<title>Page Title</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="css/bshop.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/css/whhg.css">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBQchXad-nsjAxWaIhsCH4qVxFrvlEiqW0&sensor=false">
+</script>
+<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+
+<link href="http://www.photoswipe.com/latest/photoswipe.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="http://dev.jtsage.com/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="http://dev.jtsage.com/cdn/simpledialog/latest/jquery.mobile.simpledialog.min.js"></script>
+	<script type="text/javascript" src="http://www.photoswipe.com/latest/lib/klass.min.js"></script>
+	<script type="text/javascript" src="http://www.photoswipe.com/latest/code.photoswipe-3.0.4.min.js"></script>
+<script>
+  $(function() {
+    $( "#dialog" ).dialog();
+  });
+  </script>
+	
+	
+	
+<script type="text/javascript">
+
+
+		(function(window, PhotoSwipe){
+		
+			document.addEventListener('DOMContentLoaded', function(){
+			
+				var
+					options = {},
+					instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+			
+			}, false);
+			
+			
+		}(window, window.Code.PhotoSwipe));
+		
+	</script>
+
+
+<script>
+var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+var marker;
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+marker=new google.maps.Marker({
+  position:myCenter,
+  animation:google.maps.Animation.BOUNCE
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+
+    
+</head> 
+<body> 
+
+<div data-role="page" id = "id" data-theme="b" a href="one">
+
+
+
+<!-- /grid-b -->
+<div class="clear"></div>
+	
+        <div data-role="footer data-type="horizontal"  data-position="fixed" data-theme="b"> 
+            <div data-role="navbar" data-grid="d"data-theme="b"> 
+	<a href="#two" id="btnau" data-role="button" data-inline="true"></a>    
+	<a href="#three"  id="btnloy"data-role="button" data-inline="true" ></a>
+    <a href="#four"  id="btnctu"data-role="button" data-inline="true" ></a>
+	<a href="app.html" id="btnapp" data-role="button" data-inline="true"  ></a>
+       <a href="#nine"  id="btngal" data-role="button" data-inline="true" ></a>
+
+</div>
+
+	</div><!-- /footer -->	
+</div><!-- /page one -->
+
+
+<!-- HOME------------------------------------------------->
+
+
+<!---------------/ Gallery  ------------------------->
+
+
+<div data-role="page" id="nine" data-theme="b">
+
+	<div data-role="header" data-theme="b">
+	<a href="#id" data-icon="Home">Home</a>
+    <h1>Gallery</h1>
+	</div>
+    
+    	<div data-role="content" data-theme="b">
+        <div id="MainContent">
+
+	<div class="page-content">
+	</div>
+
+<ul id="Gallery" class="gallery">
+<li><a href="image/574461_438650602877745_1626790627_n.jpg"><img src="image/574461_438650602877745_1626790627_n.jpg" alt="Image 01"/></a></li>
+<li><a href="image/Black_Hair_Salons_20.jpg"><img src="image/Black_Hair_Salons_20.jpg" alt="Image 02"/></a></li>
+<li><a href="image/black-hairstyles-16.jpg"><img src="image/black-hairstyles-16.jpg" alt="Image 01"/></a></li>
+<li><a href="image/Corbis-42-16425993.jpg"><img src="image/Corbis-42-16425993.jpg" alt="Image 01"/></a></li>
+<li><a href="image/DSC01205.jpg"><img src="image/DSC01205.jpg" alt="Image 01"/></a></li>
+<li><a href="image/rob1.jpg"><img src="image/rob1.jpg" alt="Image 01"/></a></li>
+<li><a href="image/soccer-player-haircut-aka-the-siete-done-by-supa-dre-the-barber-2.jpg"><img src="image/soccer-player-haircut-aka-the-siete-done-by-supa-dre-the-barber-2.jpg" alt="Image 01"/></a></li></ul>
+<!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<h4>Legends Barbershop</h4>
+	</div><!-- /footer -->
+</div><!-- /page eight -->
+
+
+</div>
+</div>
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="b">
+
+	<div data-role="header" data-theme="b">
+	<a href="#id" data-icon="Home">Home</a>
+	
+		<h1>About Us</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="b">	
+	
+     	<h2> About Us</h2>
+		
+	  <p>The Legends Barbershop is a professional hair cutting establishment that was opened in 2006 in scenic downtown New Braunfels, Texas, with the mission of providing the availability of excellence in barbering exclusively for men. The Fellas concept is simple, offer a unique, quality, and timeless tonsorial barber experience at very competitive prices.</p>
+		<p>
+		  
+		  The Legends Barbershop employes four professionals that have gathered over 100 years of combined experience in the barber trade. Each individual offers a particular benefit to the shop with their personal contribution and expertise. Be it shop ownership, military training, or just precision hair cutting, the staff at the Legends Barbershop will make you feel at home and very satisfied with the way you look.</p>
+		  
+		 <p> The Legends Barbershop brings back that old time barber shop feel; hot lather, hot towel, and electric shoulder massage after every haircut. Truly a haircut experience like no other.</p>
+		  
+		  <p>Click here to print out a free $5 coupon for your first visit</p>
+		  <p>Come see us at The Fellas Barber Shop and use this coupon. We invite you to relax and take a step back in barber history.</p>
+		  
+		  <p>Legends Barbershop</p>
+		  
+		  
+		 <div data-demo-html="true">	
+					<a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="grid" data-theme="b">Services</a>
+
+				<div data-role="popup" id="popupMenu" data-theme="a">
+						<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="b">
+							<li data-role="divider" data-theme="e">Services</li>
+							<li>Haircut</li>
+							<li>Haircut & Beard</li>
+							<li>Haircut & Shampoo</li>
+							<li>Edge</li>
+							<li>Custom Design</li>
+						</ul>
+				</div>
+			</div><!--/demo-html -->
+
+	</div><!-- /content -->	
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<h4>Legends Barbershop</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+
+
+
+
+
+
+
+
+<!-- Start of Three: #three -->
+<div data-role="page" id="three" data-theme="b">
+
+	<div data-role="header" data-theme="b">
+	<a href="#id" data-icon="Home">Home</a>
+		<h1>Loyalist</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="b">	
+
+     	<h2>Loyalist</h2>
+		<p>Mention this mobile ad or show your app to the Stylist, and get a $10 discount off!</p>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<h4>Legends Barbershop</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+
+
+
+
+<!-- Start of Three: #four -->
+<div data-role="page" id="four" data-theme="b">
+
+	<div data-role="header" data-theme="b">
+	<a href="#id" data-icon="Home">Home</a>
+		<h1>Contact Us</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="b">	
+
+     	<h2>Locations</h2>
+		<p>Find the nearest Salon , and get directions help with Goggle Maps. If you have any question, you can contact us at (850) 555-5555</p>
+	
+	</div><!-- /content -->
+<div id="googleMap" style="width:500px;height:380px;"></div>
+       	
+	<div data-role="footer" data-theme="b">
+		<h4>Legends Barbershop</h4>
+	</div><!-- /footer -->
+</div><!-- /page Locations -->
+
+
+
+</body>
+
+
+
+</html>
